@@ -4,13 +4,14 @@
     "slug": "songtrax_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/AppIcons/app-icon.png",
+    "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/AppIcons/app-launch.jpeg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "permissions": ["LOCATION"],
     "assetBundlePatterns": [
       "**/*"
     ],

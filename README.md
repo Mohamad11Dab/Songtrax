@@ -22,3 +22,27 @@ npx expo start
 ```
 
 This command initiates the Expo server and prepares Songtrax for launch. Enjoy exploring the capabilities of Songtrax, built to leverage the best of cross-platform development!
+
+### Map Page
+- **Interactive Map**: Utilizes react-native-maps for navigation.
+- **Mode Adaptation**: Automatically switches between light and dark modes based on device settings.
+- **Location Markers**: Displays pre-defined locations as purple circles with a radius of about 100 meters.
+- **User Location**: Showcases the user’s current location in blue, using the @react-native-community/geolocation module.
+- **Customization**: Adjust your location manually for testing different scenarios.
+
+### Music Proximity Feature
+- **Proximity Detection**: Calculates the distance between the user and predefined locations using the Geolib module.
+- **Music at Location**: A full-page display activates when music is nearby, showing details about the location and available music samples.
+
+### Play Sample Page
+- **Interactive Music Experience**: Listen to music samples with a simple Play/Stop interface.
+- **Audio Playback**: Uses a webview and Tone.js sequencer for audio playback.
+- **User Engagement**: Includes a rating component for users to rate music samples.
+
+### Profile Page
+- **Personalization**: Allows users to edit and save their profile photo and name.
+- **System Integration**: Uses the React Native Image Picker module for photo selection and system keyboard for name entry.
+
+Each page of Songtrax is designed to provide an intuitive and immersive experience, bridging the gap between music and location-based interaction.
+
+
